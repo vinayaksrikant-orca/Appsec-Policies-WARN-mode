@@ -5,7 +5,7 @@ from flask import Flask, request
 app = Flask(__name__)
 
 # FAIL: Secret Scanning (Algolia & GitHub)
-ALGOLIA_ADMIN_KEY = "d1d2d3d4d5d6d7d8d9d0dadbdcdddedf"
+ALGOLIA_ADMIN_KEY = "d1d2d3d4d4d6d7d8d9d0dadbdcdddedf"
 GITHUB_TOKEN = "ghp_n0tARealT0k3nJustF0rScann3rT3st1ng12345"
 
 @app.route("/ping")
