@@ -13,7 +13,7 @@ RUN apk add --no-cache python3 py3-pip && \
     pip3 install requests==2.20.0
 
 # Copy a dummy application file (optional)
-COPY app.py .
+COPY app.py . 
 
 # 3. HARDCODED SECRET (Scanner: Secret Detection)
 # Many image scanners also look for secrets accidentally left in environment variables.
